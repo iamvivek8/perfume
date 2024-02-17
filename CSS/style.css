@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+html.body {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Satoshi', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+
+    display: flex;
+    gap: 162px;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+nav h3 {
+    font-family: "DaniloCatalina";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(171, 87, 45);
+}
+
+nav ul {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Satoshi', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-cart {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    gap: 53px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-para {
+    width: 752px;
+}
+
+.hero-para h1 {
+    font-size: 60px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 200;
+    line-height: 67px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+
+.hero-para p {
+    font-size: 24px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    width: 530px;
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+
+
+
+.hero-para button {
+    padding: 14px 30px;
+    border-radius: 10px;
+    background-color: #AB572D;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+}
+
+.welcome {
+    height: 564px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
+background-size:100%;
+    background: linear-gradient(90deg, rgba(11,14,36,0.6) , rgba(29,29,29,0.5)), url(../images/welcomebg.png) no-repeat;
+
+}
+
+.welcome-main-container {
+    width: 1235px;
+    margin: auto;
+    background: transparent;
+
+}
+
+.welcome-container {
+    padding: 10px;
+    background: transparent;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.welcome-container h2 {
+    background: transparent;
+
+    font-size: 28px;
+    color: #AB572D;
+    font-family: 'Satoshi', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.welcome-container p {
+    background: transparent;
+
+    font-family: 'Satoshi', sans-serif;
+    color: #fff;
+    font-weight: 200;
+    /* width: ; */
+}
+
+.values {
+    display: flex;
+    gap: 81px;
+    align-items: center;
+    justify-content: center;
+}
+
+.values-para {
+    width: 39%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.values-para h2 {
+    text-align: center;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.values-para p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.collections {
+    margin: 56px auto;
+}
+
+.collections h2 {
+    font-size: 50px;
+    font-family: 'Satoshi', sans-serif;
+    text-transform: capitalize;
+    color: #AB572D;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.collection-container {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.collection-card {
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    position: relative;
+}
+
+.collection-card span {
+    font-size: 24px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    left: 23px;
+    top: 397px;
+    background: transparent;
+}
+
+.selling-products {
+    width: 260px;
+    height: 442px;
+}
+
+
+
+
+
+
+
+.ad-container {
+    background: url(../images/adbg.png);
+    max-width: 1236px;
+    margin: auto;
+    height: 538px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.ad-para {
+    width: 605px;
+    background: transparent;
+    margin-left: 30px;
+}
+
+.ad-para h2 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Satoshi', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+    background: transparent;
+
+
+}
+
+.ad-para p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    width: 570px;
+    margin-bottom: 68px;
+    background: transparent;
+
+}
+
+.ad-para button {
+    padding: 14px 30px;
+    background-color: #AB572D;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.articles {
+    margin: 30px 0px;
+}
+
+.articles h2 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #AB572D;
+    text-transform: capitalize;
+    margin-bottom: 101px;
+}
+
+.article-card-container {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-cards {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-card-para h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.article-card-para p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 46px;
+
+}
+
+.article-card-para button {
+    padding: 14px 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer-top {
+    display: flex;
+    gap: 146px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logopara {
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.footer-logopara h3 {
+    font-size: 36px;
+    font-family: "DaniloCatalina";
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #AB572D;
+}
+
+.footer-logopara h4 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer-logopara p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 304px;
+}
+
+.footer-input {
+    width: 333px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.footer-input input {
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+}
+
+.footer-input button {
+    background-color: #AB572D;
+    height: 40px;
+    width: 86px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: none;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-icon img {
+    width: 36px;
+    height: 36px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 108px;
+}
+
+.footer-list1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer-list1 h3 {
+    font-size: 16px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.footer-list1 li {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+hr {
+    width: 80%;
+    margin: 47px auto;
+    color: #333333;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom span {
+    font-size: 11px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
